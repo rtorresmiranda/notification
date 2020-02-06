@@ -1,17 +1,17 @@
 [
     {
         "name": "phpmailer/phpmailer",
-        "version": "v6.1.4",
-        "version_normalized": "6.1.4.0",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/PHPMailer/PHPMailer.git",
-            "reference": "c5e61d0729507049cec9673aa1a679f9adefd683"
+            "reference": "cc8da73fa21f59ee57281bf591d223fe8971b98e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/c5e61d0729507049cec9673aa1a679f9adefd683",
-            "reference": "c5e61d0729507049cec9673aa1a679f9adefd683",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/cc8da73fa21f59ee57281bf591d223fe8971b98e",
+            "reference": "cc8da73fa21f59ee57281bf591d223fe8971b98e",
             "shasum": ""
         },
         "require": {
@@ -32,9 +32,9 @@
             "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
             "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
         },
-        "time": "2019-12-10T11:17:38+00:00",
+        "time": "2019-12-28T10:09:55+00:00",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "PHPMailer\\PHPMailer\\": "src/"
